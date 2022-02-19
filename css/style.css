@@ -502,14 +502,15 @@ margin-bottom: 2rem;
   .contact-us-list {
     margin-bottom: 3rem;
   }
-  .contact-us-list-item-image-location{
-    margin-right: 4rem;
-  }
+  
 }
 
 @media (max-width: 576px) {
   html {
     font-size: 50%;
+  }
+  .contact-us-list-item-image-location{
+    margin-right: 4rem;
   }
 }
 
