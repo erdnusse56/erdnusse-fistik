@@ -488,6 +488,11 @@ margin-bottom: 2rem;
 .gallery-image--second{
   margin-left: 0;
 }
+
+.gallery-heading{
+  font-size: 3.5rem;
+}
+
   .contact-us-wrapper {
     padding: 3rem;
     flex-direction: column;
