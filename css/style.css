@@ -194,7 +194,8 @@ h2 {
 }
 
 .gallery-container{
-  width: 70%;
+  width: 90%;
+  max-width: 80rem;
   margin: 0 auto;
   padding: 4rem 0;
 display: flex;
@@ -218,6 +219,7 @@ margin-bottom: 2rem;
 
 
 .gallery-heading{
+  line-height: 1.4;
   text-transform: uppercase;
   color: var(--color-black);
   font-size: clamp(2rem, calc(2rem + 3vw), 4rem);
