@@ -186,6 +186,90 @@ h2 {
   fill: var(--primary-color);
 }
 
+.gallery{
+  min-height: 100vh;
+  padding: 4rem 0;
+  background-color:var(--color-white) ;
+  
+}
+
+.gallery-container{
+  width: 70%;
+  margin: 0 auto;
+  padding: 4rem 0;
+display: flex;
+}
+.gallery-image{
+  box-shadow:
+   0 2px 1.6rem rgba(0, 0, 0, 0.392);
+}
+
+.gallery-image--first{
+  margin-right: 3rem;
+}
+
+.gallery-image--second{
+  margin-left: 3rem;
+}
+
+.gallery-content>*:not(:last-child){
+margin-bottom: 2rem;
+}
+
+
+.gallery-heading{
+  text-transform: uppercase;
+  color: var(--color-black);
+  font-size: clamp(2rem, calc(3rem + 3vw), 4rem);
+}
+
+.gallery-heading--big{
+  color: #3224ab;
+}
+
+.gallery-text{
+  font-size: 2rem;
+}
+
+.gallery-text--bold{
+  font-weight: bold;
+}
+
+.call-to-action{
+  padding: 1rem 3rem;
+  background-color: var(--selection-color);
+  color: var(--color-black);
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 900;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.call-to-action:hover, .call-to-action:active{
+  background-color: var(--color-black);
+  color: var(--color-white);
+}
+
+
+.gallery-container--second{
+  flex-direction: row-reverse;
+}
+
+
+.gallery-image{
+  width: 32rem;
+  object-fit: cover;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
 .contact-us {
   min-height: 100vh;
   padding: 4rem 0;
@@ -239,10 +323,11 @@ h2 {
 .contact-us-list-item-image {
   height: 3rem;
   fill: var(--color-black);
-  margin-right: 2rem;
+  margin-right: 3rem;
 }
 
 .contact-us-list-item-image-location {
+  margin-right: 4rem;
   margin-left: 0.4rem;
 }
 
@@ -381,6 +466,24 @@ h2 {
   html {
     font-size: 55%;
   }
+
+  .gallery-container{
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  .gallery-image{
+    margin-bottom: 1rem;
+  }
+
+  .gallery-image--first{
+  margin-right: 0;
+}
+
+.gallery-image--second{
+  margin-left: 0;
+}
   .contact-us-wrapper {
     padding: 3rem;
     flex-direction: column;
