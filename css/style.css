@@ -220,7 +220,7 @@ margin-bottom: 2rem;
 .gallery-heading{
   text-transform: uppercase;
   color: var(--color-black);
-  font-size: clamp(2rem, calc(3rem + 3vw), 4rem);
+  font-size: clamp(2rem, calc(2rem + 3vw), 4rem);
 }
 
 .gallery-heading--big{
@@ -297,6 +297,8 @@ margin-bottom: 2rem;
   overflow: hidden;
 }
 .contact-us-list {
+  padding: 1rem;
+  margin-right: 2rem;
   width: 100%;
   list-style: none;
   display: flex;
@@ -474,7 +476,7 @@ margin-bottom: 2rem;
   }
 
   .gallery-image{
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
   }
 
   .gallery-image--first{
